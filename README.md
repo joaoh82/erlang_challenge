@@ -7,4 +7,5 @@ Repository with a series of code examples and challenges written in Erlang.
     - Problem 3 - Largest prime factor
     - Problem 4 - Largest palindrome product
     - Problem 5 - Smallest multiple
+    - Problem 6 - Sum square difference
  - Erlang Code Examples (Coming soon)
