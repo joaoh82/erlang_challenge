@@ -63,7 +63,6 @@ largest_product(N) ->
     "71636269561882670428252483600823257530420752963450",
     Length = string:len(String),
     Start_indexes = lists:seq(1, Length-N+1),
-    % List_of_digits = [get_digits(string:substr(String, X, N)) || X <- Start_indexes],
-    List_of_digits = [string:substr(String, X, N) || X <- Start_indexes],
+    List_of_digits = [get_digits(string:substr(String, X, N)) || X <- Start_indexes],
     Products = [product(X) || X <- List_of_digits],
     lists:max(Products).

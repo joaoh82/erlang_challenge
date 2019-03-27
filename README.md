@@ -9,4 +9,5 @@ Repository with a series of code examples and challenges written in Erlang.
     - Problem 5 - Smallest multiple
     - Problem 6 - Sum square difference
     - Problem 7 - 10001st prime
+    - Problem 8 - Largest product in a series
  - Erlang Code Examples (Coming soon)
